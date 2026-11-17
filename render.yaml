@@ -2,6 +2,7 @@ services:
   - type: web
     name: vitrin-store
     runtime: node
+        plan: free
     rootDir: .
     buildCommand: cd backend && npm install
     startCommand: cd backend && npm start
